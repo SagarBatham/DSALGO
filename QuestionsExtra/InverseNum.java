@@ -11,6 +11,7 @@ public class InverseNum {
             pos++;
             n=n/10;
         }
+        //sum
         System.out.println(sum);
     }
 }
