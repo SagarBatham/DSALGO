@@ -27,11 +27,7 @@ public class ArmStrong {
             sum=sum+(int)Math.pow(rem, count);
             n=n/10;
         }
-        if(sum==original){
-            return true;
-        }else{
-            return false;
-        }
+        return sum==original;
     }     
 }
         
