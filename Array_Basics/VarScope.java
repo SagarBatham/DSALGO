@@ -7,9 +7,9 @@ public class VarScope {
         System.out.println("Main "+val);
     }
     public static int val=100;
-    static int b=5;
+    //static int b=5;
     public static void fun(int x){
-        int a=90;
+        //int a=90;
         System.out.println(x);
         val=120;
         System.out.println(val);

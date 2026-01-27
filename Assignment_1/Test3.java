@@ -1,13 +1,16 @@
+import java.util.Scanner;
+
 public class Test3 {
     public static void main(String[] args) {
-        int n=5;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
         int star=1;
-        int space=n-1;
+        int space=n/2;
         int row=1;
         while(row<=n){
             int i=1;
             while(i<=space){
-                System.out.print("\t");
+                System.out.print("|\t");
                 i++;
             }
             int j=1;
@@ -15,8 +18,13 @@ public class Test3 {
                 System.out.print("*\t");
                 j++;
             }
-            space--;
-            star+=2;
+            if(row<=n/2){
+                space--;
+                star+=2; 
+            }else{
+                space++;
+                star-=2;
+            }
             row++;
             System.out.println();
         }

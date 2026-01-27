@@ -1,4 +1,4 @@
-public class Ques1 {
+public class MaxEle {
     public static void main(String[] args) {
         int[] arr={2,5,3,7,19,9,2,10};
         System.out.println(maxEle(arr));

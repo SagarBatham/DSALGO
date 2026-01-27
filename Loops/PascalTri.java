@@ -5,10 +5,10 @@ public class PascalTri {
         int star=1;
         while(i<n){
             int j=0;
-            int nCr=1;
+            int iCj=1; //For better understanding n=i and j=r
             while(j<star){
-            System.out.print(nCr+" ");
-            nCr=nCr*(i-j)/(j+1);
+            System.out.print(iCj+" ");
+            iCj=iCj*(i-j)/(j+1);
             j++;
             }
             i++;
