@@ -24,14 +24,29 @@ public class Pro_189 {
     public static void rotated_Arr_Optimized(int[] arr,int k){ //Reversal Algorithm
         int n=arr.length;
         k=k%n;
-        for (int i = k; i < n-1; i++) {
+        displayArr(arr);
+        swapArr(arr, n-k, n-1);
+        displayArr(arr);
+        swapArr(arr, 0, n-k-1);
+        displayArr(arr);
+        swapArr(arr, 0, n-1);
+        displayArr(arr);
+    }
+    public static void swapArr(int[] arr,int in,int fin){
+        int i=in;
+        int j=fin;
+        while(i<j){
             int temp=arr[i];
-            arr[i]=arr[i+1];
-            arr[i+1]=temp;
+            arr[i]=arr[j];
+            arr[j]=temp;
+            i++;
+            j--;
         }
-        for (int idx = 0; idx < arr.length; idx++) {
-           System.out.print(arr[idx]+" "); 
-            
+    }
+    public static void displayArr(int[]arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]+" ");
         }
+        System.out.println();
     }
 }
