@@ -1,4 +1,4 @@
-
+//Sum of odd placed and even placed digits
 import java.util.Scanner;
 
 public class Prob_1 {
