@@ -1,6 +1,7 @@
 public class Prob_42 {
     public static void main(String[] args) {
         int[] arr={2,7,2,3,1,5,3,6};
+        System.out.println(trappingWater(arr));
     }
        public static int trappingWater(int[] arr){
         int n=arr.length;
