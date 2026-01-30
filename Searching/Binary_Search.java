@@ -7,14 +7,14 @@ public class Binary_Search {
     public static int binary_search(int[]arr,int item){
         int start=0;
         int end=arr.length-1;
-        int mid=(start+end)/2;
         while(start<end){
+            int mid=(start+end)/2;
             if(arr[mid]==item){
                 return mid;
             }else if(arr[mid]>item){
-                mid=mid-1;
+                end=mid-1;
             }else{
-                mid=mid+1;
+                start=mid+1;
             }
         }
         return -1;  
