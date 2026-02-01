@@ -10,7 +10,7 @@ Write a function that returns its inverse, where inverse is defined as follows
 Inverse of 32145 is 12543. In 32145, “5” is at 1st place, therefore in 12543, “1” is at 5th place; in 32145, “4” is at 2nd place, therefore in 12543, “2” is at 4th place.
 
 Print the value returned.*/
-public class Pro_7 {
+public class Prob_13 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
