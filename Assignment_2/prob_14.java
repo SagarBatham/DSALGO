@@ -17,7 +17,7 @@ import java.util.Scanner;
 // 8
 // 2 
 // 33
-public class prob_14 {
+public class Prob_14 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int source=sc.nextInt();
