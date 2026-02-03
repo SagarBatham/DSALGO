@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 // A Boston number is a composite number, the sum of whose digits is the sum of the digits of its prime factors obtained as a result of prime factorization (excluding 1 ). The first few such numbers are 4,22 ,27 ,58 ,85 ,94 and 121 . For example, 378 = 2 × 3 × 3 × 3 × 7 is a Boston number since 3 + 7 + 8 = 2 + 3 + 3 + 3 + 7. Write a program to check whether a given integer is a Boston number.
 
 
@@ -19,15 +22,34 @@
 // 1
 public class Prob_15 {
     public static void main(String[] args) {
-        int n=378;
-        int i=2;
-        while(n>0){
-            if((n/i)==0){
-                System.out.println(i);
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(isBoston(n));
+        
+    }
+    public static int isBoston(int n){
+        int facSum=0;
+        int digofSum=digSum(n);
+        for (int i = 2; i <= n; i++) {
+            while(n%i==0) {
+                int rem=i;
+                facSum=facSum+rem;
+                n=n/i;
             }
-            n=n/i;
-            i++;
         }
-
+        if (digofSum==facSum) {
+            return 1;
+        }
+        return 0;
+    }
+    public static int digSum(int n){
+        int sum=0;
+        while(n>0){
+            int rem=n%10;
+            sum=sum+rem;
+            n=n/10;
+        }
+        return sum;
     }
 }
+
