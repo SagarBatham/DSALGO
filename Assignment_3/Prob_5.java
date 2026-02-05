@@ -30,7 +30,7 @@ import java.util.*;
 // 8
 // Explanation
 // Arrays= {2, 8, 6, 4} => Max value = 8 .
-public class Prob_5 {
+public class Prob_5{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -41,10 +41,10 @@ public class Prob_5 {
        System.out.println(maxArr(arr));
     }
     public static int maxArr(int[] arr){
-         int max=Integer.MIN_VALUE;
+         int max=arr[0];
          for (int i = 0; i <arr.length; i++) {
-             if(arr[i]<arr[i+1]){
-                max=arr[i+1];
+             if(max<arr[i]){
+                max=arr[i];
              }
          }
          return max;
