@@ -48,14 +48,40 @@ public class Prob_3 {
             }
 
             int i=0,j=0;
+            int p=0,q=0;
             int path=0;
-            while(n1>0&&n2>0){
+            while(n1>i&&n2>j){
                 if(path1[i]<path2[j]){
                     i++;
-                }else{
+                }else if(path1[i]>path2[j]){
                     j++;
+                }else{
+                    int pathway1=0;
+                    int pathway2=0;
+                    for (int k = p; k <= i; k++) {
+                        pathway1+=path1[k];
+                    }
+                    for (int k = q; k <= j; k++) {
+                        pathway2+=path2[k];
+                    }
+                    path=path+Math.max(pathway1, pathway2);
+                    i++;
+                    j++;
+                    p=i;
+                    q=j;
+                }
+                if(i==path1.length){
+                    for (int k = q; k < path2.length; k++) {
+                        path+=path2[k];
+                    }
+                }
+                if(j==path2.length){
+                    for (int k = p; k < path1.length; k++) {
+                        path+=path1[k];
+                    }
                 }
             }
+            System.out.println(path);
         }
     }
 }
