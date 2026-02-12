@@ -34,23 +34,43 @@ public class Prob_4_1 {
             permArr[i]=sc.nextInt();
         }
         nextGreater(permArr);
+        for (int i = 0; i < permArr.length; i++) {
+            System.out.print(permArr[i]+" ");
+        }
     }
     public static void nextGreater(int[] arr){
         int l=arr.length;
-        int p=0;
-        for (int i = l-2; i < 0; i--) {
-            if(arr[i-1]>arr[i]){
+        int p=-1;
+        for (int i = l-2; i >=0; i--) {
+            if(arr[i+1]>arr[i]){
                 p=i;
                 break;
             }
         }
-        System.out.println(p);
+        if(p==-1){
+            arrrev(arr, 0, arr.length-1);
+            return;
+        }
+
+        int q=0;
+        for (int i = l-1; i >p; i--) {
+            if(arr[i]>arr[p]){
+                q=i;
+                break;
+            }
+        }
+        int temp=arr[p];
+        arr[p]=arr[q];
+        arr[q]=temp;
+        arrrev(arr, p+1, arr.length-1);
     }
     public static void arrrev(int[] arr,int i,int j){
-        for (int k = i; k < j; k++) {
-            int temp=arr[k];
-            arr[k+1]=arr[k];
-            arr[k]=temp;
+        while(i<j){              
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+            i++;
+            j--;
         }
     }
 }
