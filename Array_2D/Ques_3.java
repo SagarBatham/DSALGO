@@ -8,7 +8,7 @@ public class Ques_3 {
         int col=0;
         int rowmax=arr.length-1;
         int colmax=arr[0].length-1;
-        while(row<arr.length&&col<arr[0].length){
+        while(row<=rowmax&&col<=colmax){
             for (int i = col; i <= colmax; i++) {
             System.out.print(arr[row][i]+" ");
         }
@@ -17,14 +17,18 @@ public class Ques_3 {
             System.out.print(arr[i][colmax]+" ");
         }
         colmax--;
-        for (int i =colmax ; i >= col; i--) {
+        if(row<=rowmax){
+            for (int i =colmax ; i >= col; i--) {
             System.out.print(arr[rowmax][i]+" ");
         }
         rowmax--;
-        for (int i = rowmax; i >= 0; i--) {
+        }
+        if(col<=colmax){
+            for (int i = rowmax; i >= row; i--) {
             System.out.print(arr[i][col]+" ");
         }
         col++;
+        }
         }
         
     }

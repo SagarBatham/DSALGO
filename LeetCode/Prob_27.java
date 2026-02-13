@@ -14,5 +14,7 @@ public class Prob_27 {
             }
         }
         return count;
+     
+
     }
 }
