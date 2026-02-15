@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Test1 {
     public static void main(String[] args) {
          Scanner input=new Scanner(System.in);
-        int n=input.nextInt();
+        int n=7;
         int star=n/2+1;
         int space=-1;
         int row=1;
@@ -19,6 +19,9 @@ public class Test1 {
                 j++;
             }
             int k=1;
+            if(row==1||row==n){
+                k=2;
+            }
             while(k<=star){
                 System.out.print("*\t");
                 k++;
