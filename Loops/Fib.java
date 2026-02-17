@@ -22,7 +22,7 @@ public class Fib {
             //System.out.println(a);
             a=b;
             b=c;
-            fib=c;
+            fib=a;
         }
         System.out.println(fib+"");
         input.close();

@@ -10,7 +10,7 @@ public class Prob_278 {
         while(lo<=hi){
             int mid=(lo+hi)/2;
             if(isBadVersion(mid)==true){
-                int ans=mid;
+                ans=mid;
                 hi=mid-1;
             }else{
                 lo=mid+1;
