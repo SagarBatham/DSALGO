@@ -51,8 +51,51 @@
 // The total cost of cabs = min( min(4 * 1, 3) + min(4 * 1, 3) + min(4 * 1, 3) , 7) = min ( 9, 7) = 7
 // Total final cost = min( totalCabCost + totalRickshawCost , c4) = min( 5 + 7, 19) = min ( 12, 19) = 12
 // We print 12.
+
+import java.util.Scanner;
+
 public class Prob_7 {
+    
     public static void main(String[] args) {
-        
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t-->0){
+            int c1=sc.nextInt();
+            int c2=sc.nextInt();
+            int c3=sc.nextInt();
+            int c4=sc.nextInt();
+            
+            int nriks=sc.nextInt();
+            int ncab=sc.nextInt();
+
+            int[] rikarr=new int[nriks];
+            int[] cabarr=new int[ncab];
+
+            for (int i = 0; i < rikarr.length; i++) {
+                rikarr[i]=sc.nextInt();
+            }
+
+            for (int i = 0; i < cabarr.length; i++) {
+                cabarr[i]=sc.nextInt();
+            }
+            
+
+            int rikans=0;
+            for (int i = 0; i < rikarr.length; i++) {
+                rikans=Math.min(c1*rikarr[i],c2 );
+            }
+
+            int cabans=0;
+            for (int i = 0; i < cabarr.length; i++) {
+                cabans=Math.max(c1*cabarr[i], c2);
+            }
+
+            rikans=Math.min(rikans, c3);
+            cabans=Math.min(rikans, c3);
+            int total=rikans+cabans;
+            int ans=Math.min(total, c4);
+
+            System.out.println(ans);
+        }
     }
 }
