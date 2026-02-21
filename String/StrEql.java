@@ -18,6 +18,6 @@ public class StrEql {
             }
         }
 
-        return false;
+        return true;
     }
 }
