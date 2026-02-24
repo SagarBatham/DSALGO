@@ -5,8 +5,7 @@ public class Prob_35 {
     public static void main(String[] args) {
         
     }
-}
-public int searchInsert(int[] nums, int target) {
+    public int searchInsert(int[] nums, int target) {
         int start=0;
         int end=nums.length-1;
         while(start<=end){
@@ -22,3 +21,5 @@ public int searchInsert(int[] nums, int target) {
 
         return start;
     }
+}
+
