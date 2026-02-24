@@ -37,7 +37,7 @@
 // These two numbers represent the maximum count of CB numbers that can be extracted without overlapping.
 public class CBNum {
     public static void main(String[] args) {
-        String s="81615";
+        String s="4991";
         boolean[] Valid=new boolean[s.length()];
         int count=0;
         for (int len = 1; len <=s.length(); len++) {
