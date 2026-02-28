@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Ques_1 {
+public class intro {
     public static void main(String[] args) {
         ArrayList<Integer> ll=new ArrayList<>();
         System.out.println(ll);
