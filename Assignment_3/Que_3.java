@@ -24,7 +24,7 @@ import java.util.*;
 // 17
 // Sample Output
 // 4
-public class Prob_3 {
+public class Que_3 {
     public static void main(String args[]) {
         // Your Code Here
         Scanner sc=new Scanner(System.in);

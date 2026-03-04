@@ -21,7 +21,7 @@ import java.util.*;
 // 2 and 3
 // Explanation
 // Find any pair of elements in the array which has sum equal to target element and print them.
-public class Prob_4 {
+public class Que_4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

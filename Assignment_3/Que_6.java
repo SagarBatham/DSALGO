@@ -36,7 +36,7 @@ import java.util.*;
 // Sample Output
 // Deepak should buy roses whose prices are 40 and 40.
 // Deepak should buy roses whose prices are 4 and 6.
-public class Prob_6 {
+public class Que_6 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();

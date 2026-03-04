@@ -26,7 +26,7 @@
 // 2, 3 and 5
 // Explanation
 // Array = {5, 7, 9, 1, 2, 4, 6 ,8 ,3}. Target number = 10. Find any three number in the given array which sum to target number.
-public class Prob_2{
+public class Que_2{
     public static void main(String[] args) {
         int[] arr={5, 7, 9, 1, 2, 4, 6 ,8 ,3};
         int target=10;

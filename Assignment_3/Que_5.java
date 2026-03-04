@@ -30,7 +30,7 @@ import java.util.*;
 // 8
 // Explanation
 // Arrays= {2, 8, 6, 4} => Max value = 8 .
-public class Prob_5{
+public class Que_5{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

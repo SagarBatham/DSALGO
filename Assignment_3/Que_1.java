@@ -21,7 +21,7 @@ import java.util.Scanner;
 // 0 2 4 1 3
 // Sample Output
 // 0 3 1 4 2
-public class Prob_1 {
+public class Que_1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
