@@ -50,6 +50,6 @@ public class Agrresive_Cow {
         }
         }
 
-        return false;
+        return true;
     }
 }
