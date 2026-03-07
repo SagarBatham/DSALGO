@@ -65,11 +65,21 @@ public class Alex_Shopping {
         for (int i = 0; i < items.length; i++) {
             items[i]=sc.nextInt();
         }
-
         int q=sc.nextInt();
         while(q-->0){
             int A=sc.nextInt();
             int k=sc.nextInt();
+            int count=0;
+            for (int i = 0; i < items.length; i++) {
+                if(A%(items[i])==0){
+                    count++;
+                }
+            }
+            if(count>=k){
+                    System.out.println("Yes");
+                }else{
+                    System.out.println("No");
+                }
         }
     }
 }
