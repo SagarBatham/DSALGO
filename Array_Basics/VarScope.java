@@ -14,6 +14,6 @@ public class VarScope {
         val=120;
         System.out.println(val);
         VarScope.val=45;
-        System.out.println(val);
+        System.out.println(val)
     }
 }
