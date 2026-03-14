@@ -1,4 +1,7 @@
 
+import java.util.Scanner;
+
+
 // In a busy hospital emergency room, patients are triaged based on their severity levels to prioritize treatment. Each patient is assigned a 
 // severity code:
 // ● 0: Non-urgent cases
@@ -38,6 +41,41 @@
 // 2
 public class Hos_Port {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+
+        int[] arr=new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i]=sc.nextInt();
+        }
+
+        int i=0;
+        int j=0;
+        int k=arr.length-1;
+
+        while(j<=k){
+            if(arr[j]==0){
+                int temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+                i++;
+                j++;
+            }
+            else if(arr[j]==2){
+                int temp=arr[j];
+                arr[j]=arr[k];
+                arr[k]=temp;
+                k--;
+            }else{
+                j++;
+            }
+        }
         
+        System.out.println();
+        for (int p = 0; p < arr.length; p++) {
+            System.out.println(arr[p]);
+        }
+
     }
 }
