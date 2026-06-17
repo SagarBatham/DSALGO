@@ -7,7 +7,7 @@ public class Arr_Input {
         int n=input.nextInt();
         int[] arr=new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i]=input.nextInt();
+            arr[i]=input.nextInt(); 
         }
         printArr(arr);
     }
