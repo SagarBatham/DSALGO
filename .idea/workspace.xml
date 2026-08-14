@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04db3590-b609-4f85-8d75-a8c16abeb631" name="Changes" comment="Implement Queue and Stack data structures with basic operations">
+      <change beforePath="$PROJECT_DIR$/src/Dynamic_Programming/Climbing_Stairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynamic_Programming/Climbing_Stairs.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="182" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SagarBatham&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SagarBatham/DSALGO.git&quot;,
+    &quot;accountId&quot;: &quot;1f0c2023-94e0-4da4-8fd8-a918995ef5c6&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0014003763139154" />
+      <entry key="MS500" value="1.2998537339834355" />
+      <entry key="S2" value="2.227602199269798" />
+      <entry key="S5" value="3.491269161152263" />
+      <entry key="S10" value="5.691925410249078" />
+      <entry key="S30" value="14.150356655963492" />
+      <entry key="S60" value="24.017798799123415" />
+      <entry key="M2" value="39.73695241514022" />
+      <entry key="M5" value="70.74667178866527" />
+      <entry key="M10" value="95.2214526289178" />
+      <entry key="M15" value="106.95374599573321" />
+      <entry key="M30" value="121.30271928647788" />
+      <entry key="H1" value="129.67894333000353" />
+      <entry key="H2" value="134.21380219731992" />
+      <entry key="H4" value="136.57448040361356" />
+      <entry key="D1" value="138.59115586762996" />
+      <entry key="W1" value="138.9414800989862" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0024245827E-313" />
+      <entry key="MS500" value="2.5131033071849543E-63" />
+      <entry key="S2" value="2.238992224722555E-16" />
+      <entry key="S5" value="5.495674903948679E-7" />
+      <entry key="S10" value="7.413286928652607E-4" />
+      <entry key="S30" value="0.09176632155824012" />
+      <entry key="S60" value="0.35423176010676044" />
+      <entry key="M2" value="1.0025225887076699" />
+      <entry key="M5" value="3.2550067726966536" />
+      <entry key="M10" value="5.7243481596125045" />
+      <entry key="M15" value="7.05053193136032" />
+      <entry key="M30" value="8.76700661430244" />
+      <entry key="H1" value="9.80953058352112" />
+      <entry key="H2" value="10.38494029560268" />
+      <entry key="H4" value="10.687336556130933" />
+      <entry key="D1" value="10.947160839751119" />
+      <entry key="W1" value="10.992433498640365" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.01932661396008795" />
+      <entry key="MS500" value="0.6209463802342085" />
+      <entry key="S2" value="1.8558202126110093" />
+      <entry key="S5" value="3.2483438479295192" />
+      <entry key="S10" value="5.473867041109136" />
+      <entry key="S30" value="14.03102281826236" />
+      <entry key="S60" value="24.190212630800623" />
+      <entry key="M2" value="40.59511454618094" />
+      <entry key="M5" value="73.90296177904307" />
+      <entry key="M10" value="100.87950835529765" />
+      <entry key="M15" value="113.95451978707129" />
+      <entry key="M30" value="130.04138992446323" />
+      <entry key="H1" value="139.47328472150838" />
+      <entry key="H2" value="144.59086976398584" />
+      <entry key="H4" value="147.25780797964572" />
+      <entry key="D1" value="149.53763818553222" />
+      <entry key="W1" value="149.9338164086173" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HnvYwDqRdDA21orVqhciClSs9n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Add_Arr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arr1_Rec.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arr_Input.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book_Allocation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibnocci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prob_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ques1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapArr.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DSALGO&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DSALGO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/DSALGO/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion.inline&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04db3590-b609-4f85-8d75-a8c16abeb631" name="Changes" comment="" />
+      <created>1786516700214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786516700214</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement Queue and Stack data structures with basic operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Queue and Stack data structures with basic operations" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
